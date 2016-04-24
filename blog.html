@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>哈士奇的蠢萌小屋</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;  
+        }
+        .row {
+            margin-left: 0;
+            margin-right: 0;
+            text-align: center;
+        }
+        .wallpaper {     
+            background-image: url(images/banner.jpg);
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;  
+        }
+        .navbar {
+            border: none;
+            font-weight:bold;
+            background-color: rgba(0,0,0,0.4);
+            
+        }
+        
+        .navbar-brand {
+            font-size: 30px;
+            
+        }
+        .banner {
+            margin-top: -20px;
+            height: 700px;
+            background-color: rgba(0,0,0,0.3);  
+        }
+        .inner {
+            position: relative;
+            top: 40%;
+            margin: 0 auto;
+            width: 50%;   
+            line-height: 30px;
+            text-align: center;
+            color: #fff;    
+        }
+        .divider {
+            margin: 0 auto;
+            border: 1px solid #fff;
+            width: 40%;
+        }
+        .menu-down {
+            margin-top:20%;
+            font-size: 20px;
+        }
+        .menu-down a {
+            display: block;
+        }
+        .mid {
+            text-align: center;
+        }
+        .container {
+            max-width: 100%;
+        }
+        .shape {
+            margin: 0;
+            padding: 20px 0;
+            width: 100%;
+            background-color: #008b8b;   
+        }
+        .col-md-5 img {
+            width: 100%;
+        }
+        .col-md-7 {
+             margin-top: 80px;  
+        }
+        .col-md-7 p{
+            line-height:25px;
+        }
+        .contain .row {
+            background-color: rgba(135,206,255,0.9);
+            
+        }
+        .contain .row:nth-child(2n) {
+            background-color: rgba(135,206,235,0.7);
+        }
+        .tip {
+            margin-bottom: 30px;
+        }
+        .tip .divider {
+            margin: 20px auto;
+        }
+        .cards {
+            padding: 50px 0;
+            background-color: rgba(82,48,119,0.9);
+            color: #ffe4c4; 
+        }
+        .cards .row .col-md-6 .col-md-6 {
+            
+            border: 1px solid #704085;
+            box-sizing: border-box;
+            height:300px;
+        }
+        .cards .row .col-md-6:nth-child(1) {
+            background: rgba(0,0,0,0.05)
+        }
+        .cards .row .col-md-6:nth-child(2) {
+            background: rgba(0,0,0,0.1)
+        }
+        .cards .row .col-md-6:nth-child(3) {
+            background: rgba(0,0,0,0.15)
+        }
+        .cards .row .col-md-6:nth-child(4) {
+            background: rgba(0,0,0,0.2)
+        }
+        .cards .row .col-md-6:nth-child(5) {
+            background: rgba(0,0,0,0.25)
+        }
+        .cards .row .col-md-6:nth-child(6) {
+            background: rgba(0,0,0,0.3)
+        }
+        .footer {
+            padding: 0 100px;
+            height: 50px;
+            line-height: 50px;
+            background-color: #000;
+        }
+        .footer p {
+             margin-bottom: 0;
+        }
+        
+    </style>
+</head>
+<body>
+  <div class="wallpaper">    
+      <div class="navbar navbar-default transparent"  id="menu-nav">     
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive">
+                  <span class="sr-only">Toggle Navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">哈士奇</a>
+          </div>
+          <div class="navbar-collapse collapse navbar-responsive">
+              <ul class="nav navbar-nav pull-right">
+                  <li><a href="#">首页</a></li>
+                  <li><a href="#">文章</a></li>
+                  <li><a href="#">相册</a></li>
+                  <li><a href="#">更多</a></li>
+              </ul>
+          </div>    
+      </div>
+      <div class="banner">
+          <div class="inner">
+              <hr class="divider">
+              <h1>哈士奇</h1>
+              <hr class="divider">
+              <p>哈士奇都是蠢萌蠢萌的</p>
+              <a class="btn btn-danger" href="#">了解更多</a>
+              <p class="menu-down">更多<a href="#"><img src="images/arrow.png" alt=""></a></p>
+          </div>
+      </div>
+      <div class="contain">
+          <div class="row shape">
+              <div class="col-md-12 mid">
+                  <h2>形态特征</h2>
+                  <p>有着比大多数犬种都要厚的毛发，颜色和花纹有很多种类。通常它们有着白色的爪和四肢，面部的花纹和较尖的尾部，最常见的毛色搭配有黑夹白、灰夹白、铜红色（copper-red）夹白和纯白色，很多个体还有褐色、微红色毛，灰棕色阴影或者杂色斑点。面部出现类似面具、眼镜形状各种各样的花纹也是很常见的。尽管体型较小而且有着较为柔顺的毛发，西伯利亚雪撬犬都有着和狼相似的外观，也正是因此，哈士奇的表情经常能瞬间在帅气与呆萌之间转换。</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-5">
+                  <img src="images/husky1.jpg" alt="1">
+              </div>
+              <div class="col-md-7 pdf">
+                  <h3>等级习性</h3>
+                  <p>西伯利亚雪橇犬（哈士奇）生性好群居，但在群体中有着明显的等级制度。在狗饲养场、农村、城郊的狗群中，总由一条头狗（通常是老狗）支配、管辖着全群。级别高或资格老的头狗怎样表明它的等级上风呢？通常采用以下几种特定动作来表示：如答应它而不答应对方检查它狗的生殖器官；不准对方向另一只狗排过尿的地方排尿；对方可在头狗眼前摇头、摆尾、耍顽皮、退走、坐下、躺下，当头狗离开时，方可站住；等级上风明确后，敌对状态消除，开始成为朋友。狗对其主人也会表现同样的姿势。</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-7">
+                  <h3>与人交往</h3>
+                  <p>与人交往是狗天生的习性，但其程度常取决于3~7周龄时，与人接触"印记"的程度。假如狗出生的头两个月只跟它的父母或其他狗在一起，而不与人在一起，或者没有真正逐渐了解人，则其一生就会阔别人，并难以练习。假如生下来就受到人的抚爱，这就使它熟悉到人是朋友，是能跟它玩耍的伙伴，并熟悉人的气味，与人和善，容易接受练习。这在挑选和练习狗时，留意到它的印记阶段是十分重要的。</p>
+              </div>
+              <div class="col-md-5">
+                  <img src="images/husky2.jpg" alt="1">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-5">
+                  <img src="images/husky3.jpg" alt="1">
+              </div>
+              <div class="col-md-7">
+                  <h3>领地记号</h3>
+                  <p>狗和其他动物（如猫科动物、鸟类、啮齿类动物）一样，都有领地感，以它自己为中心，用自己的气味标出地界，并常常更新。一块领地可只属于一二只狗，或整个狗群。外来狗如闯进一只狗的领地时，它的行动十分谨慎，假如领地主（狗）来了，闯入者不敢看它，假装忙于其它事，避免与领地狗撕斗，然后离去。那么，狗怎样标志它的领地呢？通常是沿着它平时行走的线路而固定一些点。</p>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-7">
+                  <h3>性格喜好</h3>
+                  <p>哈士奇的个性很活泼温顺，几乎不会出现主动攻击人类的现象。在中国对于狗的地位，温顺友好的小哈，能让你和狗狗在周围的环境中有一定的优势，比较容易被接受。哈士奇喜欢玩耍，它能不知疲惫的和你玩上几个小时，多数情况是你累的吐舌头，它还意犹未尽，这些所带来的快乐，是无法用语言来形容的。</p>
+              </div>
+              <div class="col-md-5">
+                  <img src="images/husky4.jpg" alt="1">
+              </div>
+          </div>
+      </div>
+      <div class="cards">
+          <div class="row">
+             <div class="col-md-3"></div>
+              <div class="col-md-6">
+                 <div class="tip">
+                     <h2>喂养哈士奇的注意事项</h2>
+                     <hr class="divider">
+                     <p>狗狗的食量是个大问题，吃多了，容易发胖，吃少了，容易营养不良。所以控制哈士奇的食量很重要，小编为您具体介绍不同状态的狗狗的食量问题。</p>
+                 </div>
+                  <div class="row">
+                      <div class="col-md-6">
+                          <h2>如何喂养哈士奇？</h2>
+                          <p>推荐全价幼犬粮。有的主人喜欢自己给狗做食物，喂些鸡肝什么的就以为对狗好，其实不对的。这些食物对狗害处很大，而且成本完全不比全价狗粮低。
+        狗粮营养全面，不易蛀齿或产生牙垢，此外还避免宠物口臭，均衡的营养是宠物健康的基础。</p>
+                              </div>
+                      <div class="col-md-6">
+                          <h2>判断喂食量是否合适？</h2>
+                          <p>每只狗的食量大小并不完全一样，刚开始可以喂得稍多一些，再视吃剩的食物多少判断喂食量是否过多。可以随幼犬长大的过程慢慢增加喂食量。喂食量应该根据幼犬的进食状况，大约3个星期调整1-2次。</p>
+                      </div>                 
+                      <div class="col-md-6">
+                          <h2>饮食方面有哪些注意？</h2>
+                          <p>不能给它吃鸡、鸭骨头，可以吃点猪的棒骨！哈士奇的肠胃不太好，稍有喂不好的情况，就能导致拉稀！所以平时可以给点酸奶喝，记住，是酸奶哦，牛奶的话狗狗会吐的。自来水也是不可以的哦。偶尔可以给他点咬骨，既能磨牙又能吃下肚的，还有要注意不能给小哈吃剩菜剩饭。</p>
+                      </div>
+                      <div class="col-md-6">
+                         <h2>幼犬喂养定时定量？</h2>
+                          <p>小狗少量多餐，50天应该是1天4顿 而且每次应该隔6个小时。小狗的成长发育期所需的热量是成年犬的2倍。断奶后至第3个月左右，喂食时间应定为早晨7点、中午12点、傍晚5点、夜里10点，每天4次。出生第5个月至第8个月，可在早晨、中午、傍晚分3次喂食，这段时间内给幼犬的喂食量，大约相当于成犬的三分之一至一半。</p>
+                      </div>               
+                      <div class="col-md-6 ">
+                          <h2>狗狗的必备的东西</h2>
+                          <p>钙片和发育宝。这是无数小哈的伺主，普遍首肯的宝贝。前者帮助爱犬建立完好的骨骼结构，长大了不容易得外伤，后者帮助小哈调理肠胃，增进食欲。</p>
+                      </div>
+                      <div class="col-md-6">
+                          <h2>狗吃不惯硬质专用狗粮怎么办？</h2>
+                          <p>绝大部分幼犬长到2个月大左右，就可以吃硬质专用狗粮了。如果幼犬一时还吃不惯，可以用开水先泡软后，再喂它们。</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer">
+          <a href="#top" class="pull-right">回到顶部</a>
+          <p class="copyright">2016bilibili</p>
+      </div>
+  </div>    
+   <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+   <script src="js/bootstrap.min.js"></script> 
+</body>
+</html>
